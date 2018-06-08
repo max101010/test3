@@ -2,13 +2,6 @@ package com.javarush.task.task17.task1711;
 
 import java.util.Date;
 
-public class Person {
-    private String name;
-    private Sex sex;
-    private Date birthDay;
-
-    private Person(String name, Sex sex, Date birthDay) {
-        this.name = name;
         this.sex = sex;
         this.birthDay = birthDay;
     }
