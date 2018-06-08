@@ -2,8 +2,7 @@ package com.javarush.task.task17.task1711;
 
 import java.util.Date;
 
-        this.sex = sex;
-        this.birthDay = birthDay;
+       
     }
 
     }
