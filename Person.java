@@ -6,24 +6,6 @@ import java.util.Date;
         this.birthDay = birthDay;
     }
 
-    public static Person createMale(String name, Date birthDay) {
-        return new Person(name, Sex.MALE, birthDay);
-    }
-
-    public static Person createFemale(String name, Date birthDay) {
-        return new Person(name, Sex.FEMALE, birthDay);
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Sex getSex() {
-        return sex;
     }
 
     public void setSex(Sex sex) {
